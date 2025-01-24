@@ -15,7 +15,7 @@ public class Exercise20 {
     }
 
     public static void showPeopleDetails(List<Person> stringList) {
-        for(Person user :stringList){
+        for (Person user : stringList) {
             user.getDetails();
         }
     }
@@ -24,7 +24,6 @@ public class Exercise20 {
         List<Person> stringList = getPeopleList();
         showPeopleDetails(stringList);
     }
-
 
 
 }
